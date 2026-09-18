@@ -38,3 +38,46 @@
 
 - [ChatGPT 안내서](docs/Excel_VBA_Macro_Builder_Guide_ChatGPT_KO.pdf)
 - [Claude 안내서](docs/Excel_VBA_Macro_Builder_Guide_Claude_KO.pdf)
+
+---
+
+# Excel VBA Macro Builder (English)
+
+Excel VBA Macro Builder is an AI skill that helps automate repetitive Excel work with VBA macros. It analyzes the source files alongside a manually completed example, confirms the business rules, and produces a reusable VBA macro (`.bas`).
+
+## Available versions
+
+| Version | For | File |
+| --- | --- | --- |
+| ChatGPT | Skill for use in ChatGPT | `chatgpt/excel-vba-macro-builder_chatgpt.zip` |
+| Claude | Skill for use in Claude | `claude/excel-vba-macro-builder_claude.zip` |
+
+## How it works
+
+1. Analyze the original files and a manually completed example.
+2. Conduct an AI-assisted business interview to confirm inputs, processing rules, exceptions, and output format.
+3. Present the workflow and key rules for user approval through an approval gate.
+4. After approval, create the VBA `.bas` file.
+5. Validate the macro using static checks and test data before delivery.
+
+## Example use cases
+
+- Consolidating multiple Excel or CSV files into one workbook
+- Batch calculations for experimental data and generating result files
+- Analyzing instrument data and organizing test results
+- Categorizing data by conditions and separating worksheets
+- Preparing recurring reports and populating standard templates
+
+## Installation and use
+
+1. Download the ZIP file for the AI service you use.
+2. Install the ZIP through that service's skill-installation feature.
+3. Start a new chat, select the skill, and briefly describe the work to automate.
+4. Attach the original files together with a manually completed example result file.
+5. Answer the business interview and review and approve the proposed workflow and rules.
+6. Receive the validated VBA `.bas` file and use it in Excel.
+
+For detailed Korean installation and usage instructions, see:
+
+- [ChatGPT guide (Korean)](docs/Excel_VBA_Macro_Builder_Guide_ChatGPT_KO.pdf)
+- [Claude guide (Korean)](docs/Excel_VBA_Macro_Builder_Guide_Claude_KO.pdf)
